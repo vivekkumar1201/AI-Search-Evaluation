@@ -1,0 +1,36 @@
+{
+  "name": "ai-search-quality-evaluator",
+  "version": "1.0.0",
+  "description": "AI Search Quality Evaluation Framework with GUI - Evaluate AI Search quality metrics including Chrome's AI search mode",
+  "main": "eval/ai-search/evaluator.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/ai-search-quality-evaluator.git"
+  },
+  "scripts": {
+    "start": "node gui/server.js",
+    "eval": "node eval/ai-search/evaluator.js",
+    "eval:all": "node eval/ai-search/evaluator.js --all",
+    "eval:custom": "node eval/ai-search/evaluator.js --custom-only"
+  },
+  "keywords": [
+    "ai",
+    "search",
+    "evaluation",
+    "quality",
+    "metrics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "multer": "^2.0.0",
+    "puppeteer": "^24.15.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
